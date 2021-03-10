@@ -52,6 +52,18 @@
             margin-top: 60px;
         }
     }
+    .carousel {
+        padding: 81px 0;
+        &__inner {
+            position: relative;
+            width: 500px;
+            margin: 0 auto;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -88,6 +100,7 @@
             width: unset; 
         }
     }
+
     .advantages {
         .container {
             max-width: 500px;
@@ -102,6 +115,7 @@
             margin-top: 20px;
         }
     }
+
     .consultation {
         .container {
             max-width: 500px;
@@ -116,7 +130,24 @@
             margin-top: 60px;
         }
     }
+    .carousel {
+        padding: 35px 0;
+        &__inner {
+            position: relative;
+            width: 600px;
+            margin: 0 auto;
+            img {
+                max-width: 100%;
+            }
+            .slick-prev, .slick-next {
+                img {
+                    display: none;
+                }  
+            }
+        }
+    }
 }
+
 @media screen and (min-width: 320px) and (max-width: 575px) {
     .promo {
         min-height: 500px;
@@ -190,6 +221,7 @@
             margin-top: 20px;
         }
     }
+
     .consultation {
         padding: 50px 0 50px 0;
         .container {
@@ -204,6 +236,23 @@
         &__descr {
             margin-top: 40px;
             font-size: 19px;
+        }
+    }
+
+    .carousel {
+        padding: 35px 0;
+        &__inner {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+            img {
+                max-width: 100%;
+            }
+            .slick-prev, .slick-next {
+                img {
+                    display: none;
+                }  
+            }
         }
     }
     
