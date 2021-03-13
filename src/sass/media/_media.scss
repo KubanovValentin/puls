@@ -69,12 +69,18 @@
         }
     }
     .catalog {
+        padding-bottom: 50px;
         .container {
             max-width: 700px;
         }
         &__tab {
             width: 160px;
             font-size: 15px;
+        }
+    }
+    .feed {
+        .container {
+            max-width: 700px;
         }
     }
     
@@ -177,6 +183,16 @@
             margin: 0 5px;
             width: 160px;
             font-size: 15px;
+        }
+    }
+
+    .feed {
+        .container {
+            max-width: 600px;
+        }
+        &__text {
+            margin-left: 20px;
+            padding-right: 0px;
         }
     }
     
@@ -307,5 +323,26 @@
             margin-top: 30px;
         }
     }
-    
+
+    .feed {
+        .container {
+            max-width: 400px;
+            .title {
+                margin-bottom: 20px;
+                font-size: 25px;
+            } 
+        }
+        &__item {
+            text-align: center;
+            display: block;
+        }
+        &__text {
+            margin-left: 0;
+            padding: 0 10px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+
+    }
 }
