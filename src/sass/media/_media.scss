@@ -24,6 +24,12 @@
             max-width: 900px;
         }
     }
+    .footer {
+        &__info {
+            left: 70%;
+        }
+    }
+    
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
@@ -81,6 +87,20 @@
     .feed {
         .container {
             max-width: 700px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 400px;
+            height: 200px;
+            padding: 15px 68px 20px 68px;
+            left: 70%;
+        }
+        &__addr {
+            margin-bottom: 15px;
+        }
+        &__fhone {
+            margin-bottom: 30px;
         }
     }
     
@@ -193,6 +213,21 @@
         &__text {
             margin-left: 20px;
             padding-right: 0px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 300px;
+            height: 170px;
+            padding: 5px 2px 5px 5px;
+            left: 50%;
+            top: 70%;
+        }
+        &__addr {
+            margin-bottom: 15px;
+        }
+        &__fhone {
+            margin-bottom: 30px;
         }
     }
     
@@ -344,5 +379,27 @@
             margin-top: 10px;
         }
 
+    }
+    .footer {
+        &__info {
+            width: 210px;
+            height: 143px;
+            padding: 5px 2px 5px 5px;
+            left: 50%;
+            top: 70%;
+        }
+        &__addr {
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__fhone {
+            margin-bottom: 15px;
+            line-height: 19px;
+            font-size: 17px;
+        }
+        &__social-item {
+            margin: 0 5px;
+        }
     }
 }
