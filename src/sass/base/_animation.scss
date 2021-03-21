@@ -27,16 +27,16 @@
 //         transform: translateY(0%) scaleX(1);        
 //     }
 // }
-@keyframes go-bottom-top {
-    from {
-        bottom: 0px;
-        transform: scale(0.4);
-    }
-    to {
-        bottom: calc(20% - 10px);
-        transform: scale(1.4);
-    }
-}
+// @keyframes go-bottom-top {
+//     from {
+//         bottom: 0px;
+//         transform: scale(0.4);
+//     }
+//     to {
+//         bottom: calc(20% - 10px);
+//         transform: scale(1.4);
+//     }
+// }
 
 @keyframes heartbeat {
     from {

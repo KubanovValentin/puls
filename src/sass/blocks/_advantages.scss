@@ -30,14 +30,14 @@
         }
     }
     &__icon {
-        &_animated-1 {
-            // animation-name: slideExpandUp;
-            // animation-duration: 3s; 
-            // animation-timing-function: ease-out;
-            // visibility: visible !important;
-            animation: go-bottom-top 3s ease-out infinite;
-            position: relative;
-        }
+        // &_animated-1 {
+        //     // animation-name: slideExpandUp;
+        //     // animation-duration: 3s; 
+        //     // animation-timing-function: ease-out;
+        //     // visibility: visible !important;
+        //     animation: go-bottom-top 3s ease-out infinite;
+        //     position: relative;
+        // }
         &_animated-2 {
             animation: heartbeat 1.5s ease infinite;
             &:hover {
