@@ -68,14 +68,14 @@
         &__subtitle {
             margin-top: 20px;
             color: #0d0d0d;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 700;
             text-align: center;
         }
         &__descr {
             margin-top: 16px;
             color: #0d0d0d;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 300;
             text-align: center;
         }
@@ -114,7 +114,7 @@
         }
         &__wrapper {
             display: flex;
-            width: calc(200% + 40px);
+            width: calc(200% + 50px);
         }
         &__content {
             width: 50%;
@@ -139,22 +139,25 @@
                 transform: translateX(-100%);
                 margin-left: 0;
             }
-            li {
-                position: relative;
-                color: #555555;
-                font-size: 14px;
-                font-weight: 300;
-                margin-bottom: 20px;
-                &::before{
-                    content:"";
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 8px;
+            ul {
+                li {
+                    position: relative;
+                    color: #555555;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    &::before{
+                        content:"";
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 8px;
+                    }
                 }
             }
+            
         }
         &__back {
             position: absolute;
@@ -163,7 +166,7 @@
             transform: translateX(calc(-50% - 19px));
             display: block;
             color: $main-color;
-            font-style: 13px;
+            font-style: 14px;
             font-weight: 500;
             text-decoration: underline;
             text-transform: uppercase;
